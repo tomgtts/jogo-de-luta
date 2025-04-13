@@ -5,6 +5,7 @@ const ctx = canvas.getContext('2d');
 // Configuração dos jogadores
 import { defaultConfig } from './config/defaultConfig.js';
 
+
 // Função para criar o jogador
 function createPlayer(config) {
   return {
